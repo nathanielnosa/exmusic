@@ -1,0 +1,43 @@
+body{
+	background: #0B172A;
+	font-family: arial;
+}
+
+footer{
+	
+}
+h1{
+padding-top:20px;
+
+animation:text 3s 1;
+}
+.mot{
+color:white;
+font-size:18px;
+font-style: italic;
+animation:mott 3s 1;
+}
+
+
+@keyframes text{
+0%{
+color:white;
+text-shadow: 3px 3px 3px black;
+}
+
+}
+@keyframes mott{
+0%{
+opacty:0;
+transform:scale(0.1);
+animation:bounce2s ease-in-out;
+}
+
+/*.gen:hover{
+	animation:ss 1s
+}
+@keyframes ss{
+	0%{transform:rotate(30deg);
+	}
+}
+*/
